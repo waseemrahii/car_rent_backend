@@ -7,8 +7,9 @@
    "scripts": {
       "start": "node server.js",
       "server": "nodemon server.js",
-      "dev": "concurrently \"npm run server",
-      "generate-toc": "markdown-toc -i readme.md"
+      "dev": "concurrently \"npm run server\"",
+      "generate-toc": "markdown-toc -i readme.md",
+      "build": "echo 'No build necessary'"
    },
    "keywords": [
       "car-rental",
